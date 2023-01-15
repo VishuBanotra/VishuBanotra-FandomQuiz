@@ -45,7 +45,7 @@ var questions = [
     answer: "Superman"
   },
   {
-    question: "What is real the name of SSuperman ? ",
+    question: "What is real the name of Superman ? ",
     answer: "Clark Kent"
   },
   {
@@ -70,5 +70,6 @@ function showScore() {
   highScore.map(score => console.log(score.name, ":", score.score));
 }
 
+readLineSync();
 showScore();
 
